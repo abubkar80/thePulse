@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+/* Google Sign-In Official Material Button styling from Google Identity guidelines */
+.gsi-material-button {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -webkit-appearance: none;
+  background-color: #ffffff;
+  background-image: none;
+  border: 1px solid #dadce0;
+  border-radius: 24px;
+  box-sizing: border-box;
+  color: #3c4043;
+  cursor: pointer;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 14px;
+  height: 44px;
+  letter-spacing: 0.25px;
+  outline: none;
+  overflow: hidden;
+  padding: 0 20px;
+  position: relative;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.gsi-material-button:hover {
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  background-color: #f8f9fa;
+  border-color: #c4c7c5;
+}
+
+.gsi-material-button:active {
+  background-color: #eeeeee;
+}
+
+.gsi-material-button-content-wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  height: 100%;
+  position: relative;
+}
+
+.gsi-material-button-icon {
+  height: 20px;
+  margin-right: 10px;
+  min-width: 20px;
+  width: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.gsi-material-button-contents {
+  font-weight: 600;
+  font-size: 14px;
+  color: #1f2937;
+}
+
+/* Custom app styles */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

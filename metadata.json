@@ -1,0 +1,6 @@
+{
+  "name": "DuePulse - Student Deadline & Calendar Manager",
+  "description": "A mobile-first deadline tracker for students featuring assignment timers, task breakdown, push notifications, and Google Calendar sync.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
